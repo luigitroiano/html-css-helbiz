@@ -12,7 +12,6 @@ body{
 .pr_30{
   padding-right: 30px;
 }
-
 /* /utility  */
 
 /* header */
@@ -109,5 +108,36 @@ nav a{
 }
 /* /section_vehicles */
 
+/* curious grandfather */
+#curious_grandfather .container_fluids{
+  height: 350px;
+  background-image: url("../img/curiousgrandfather.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#curious_grandfather img{
+  height: 400px;
+}
+#curious_grandfather .col-lg-4{
+  text-align: center;
+}
+#curious_grandfather .row{
+  padding-top: 150px;
+}
+.text_down_left{
+  text-align: right;
+}
+.text_down_left p{
+  padding: 320px 0 0 270px;
+}
+.text_down_right{
+  text-align: left;
+}
+.text_down_right .paragraph{
+  font-size: 0.8em;
+  padding: 320px 200px 0 0;
+  text-align: left;
+}
+/* /curious grandfather */
 
 /* /main */
