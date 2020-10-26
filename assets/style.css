@@ -6,9 +6,17 @@ body{
 .mr_20{
   margin-right: 20px;
 }
+.pl_30{
+  padding-left: 30px;
+}
+.pr_30{
+  padding-right: 30px;
+}
 
 /* /utility  */
 
+/* header */
+/* navbar */
 nav{
   height: 80px;
 }
@@ -39,7 +47,9 @@ nav a{
 .language_menu li:not(:last-child) a{
   border-right: 1px solid black;
 }
+/* /navbar */
 
+/* hero image */
 .hero_img{
   height: 550px;
   color: white;
@@ -74,3 +84,30 @@ nav a{
 .hero_text img{
   width: 150px;
 }
+/* /hero image */
+/* /header */
+
+/* main */
+/* section_vehicles */
+#vehicles .row{
+  padding: 40px 0;
+}
+.card{
+  text-align: center;
+  background-color: #FAFAFA;
+  padding-top: 30px;
+  line-height: 2em;
+}
+.vehicles_logo{
+  width: 150px;
+}
+.vehicles_img{
+  height: 400px;
+}
+#vehicles a{
+  text-decoration: none;
+}
+/* /section_vehicles */
+
+
+/* /main */
